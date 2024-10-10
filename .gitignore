@@ -1,3 +1,5 @@
 my_tensorflow_env/
 *.iml
 *.xml
+.idea/CSE368Project.iml
+.idea/misc.xml
