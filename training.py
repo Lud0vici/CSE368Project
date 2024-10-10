@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import nltk
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 nltk.download('wordnet')
@@ -102,6 +102,7 @@ hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
 
 # saving the model
 model.save("chatbotmodel.h5")
+# model.save('my_model.keras')?
 
 # print statement to show the successful training of the Chatbot model
 print("Yay!") 
