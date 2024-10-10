@@ -2,9 +2,11 @@ import random
 import json 
 import pickle 
 import numpy as np 
-import nltk 
-from keras.models import load_model 
-from nltk.stem import WordNetLemmatizer 
+import nltk
+import tensorflow as tf
+
+from tensorflow.keras.models import load_model
+from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer() 
 intents = json.loads(open("intents.json").read()) 
