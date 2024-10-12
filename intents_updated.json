@@ -1,0 +1,384 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "hi there",
+        "What's up",
+        "How are you?",
+        "Good morning",
+        "Good afternoon",
+        "food recs"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Need help finding a place to eat?",
+        "Hey, looking for something to eat on campus?",
+        "What's up? Let me know what you're craving!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "I'm done",
+        "Thanks, that's all"
+      ],
+      "responses": [
+        "Goodbye! Hope to help you again soon.",
+        "Take care and enjoy your meal!",
+        "See you next time!",
+        "Until next time."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "restaurant_recommendation",
+      "patterns": [
+        "Where can I eat?",
+        "What's good on North Campus?",
+        "Any restaurants near Capen?",
+        "What are the food options on North Campus?",
+        "What's available in the Commons?",
+        "I'm hungry, where should I go?",
+        "hmm i dont know, what do you think?",
+        "i want something new",
+        "i dont know",
+        "suggest something for me",
+        "what should i get?"
+      ],
+      "responses": [
+        "If you're in the mood for fresh sushi, Champa Sushi in the Student Union is a must-try! They also have Asian snacks and drinks.",
+        "Craving something sweet and refreshing? Head over to Jamba for freshly blended smoothies and acai bowls in the Student Union!",
+        "For delicious Mexican flavors, check out Moe’s for burritos, tacos, and more!",
+        "Need a coffee fix? Tim Horton’s serves hot, fresh coffee and a variety of baked goods like muffins and doughnuts.",
+        "Feeling like pasta? Bravo Pasta offers delicious pasta dishes and hot paninis from the Bread Box Deli.",
+        "Grab a quick meal at Bulls on the Run, where you can find salads, sandwiches, and snacks to go!",
+        "Capen Cafe is perfect for a quick breakfast or light lunch, featuring grab-and-go sandwiches and refreshing beverages.",
+        "If you're looking for Kosher options, the NY Deli & Diner in Talbert Hall has delicious falafel and hummus along with vegan and vegetarian dishes.",
+        "Check out One World Café for a diverse menu, including Mediterranean, Indian, American, and Asian cuisines all in one spot!",
+        "For a cozy spot, Whisper’s Cafe inside Capen Hall has Starbucks beverages, baked goods, and grab-and-go sandwiches and salads."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vegan_options",
+      "patterns": [
+        "I'm vegan",
+        "Where can I get vegan food?",
+        "Are there vegan options?",
+        "I need a vegan restaurant",
+        "Any vegan places nearby?",
+        "vegan",
+        "something vegan"
+      ],
+      "responses": [
+        "The NY Deli & Diner in Talbert Hall offers many vegan and vegetarian dishes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vegetarian_options",
+      "patterns": [
+        "I'm vegetarian",
+        "Where can I get vegetarian food?",
+        "Are there vegetarian options?",
+        "Any vegetarian places nearby?",
+        "I need vegetarian meals"
+      ],
+      "responses": [
+        "Subway in the Commons allows you to customize your sandwich with vegetarian ingredients.",
+        "Freshens at Alumni Arena also provides vegetarian salads and bowls.",
+        "The Union Market offers vegetarian sushi and other grab-and-go items."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gluten_free_options",
+      "patterns": [
+        "I'm gluten-free",
+        "Where can I get gluten-free food?",
+        "Are there gluten-free options?",
+        "I need a gluten-free restaurant",
+        "Any gluten-free places nearby?",
+        "gluten"
+      ],
+      "responses": [
+        "Freshens at Alumni Arena offers gluten-free grain bowls and salads.",
+        "You can find gluten-free soy sauce at Champa Sushi.",
+        "You can also find gluten-free snacks and grab-and-go options at the Union Market.",
+        "Gluten-free sliced bread, bagels, sub rolls, and muffins are available at the Dining Centers and Retail Operations.",
+        "If you’re in the mood for pasta, Bravo Pasta offers gluten-free pasta options.",
+        "Craving pizza? Check out the gluten-free pizza at the Dining Centers.",
+        "Don’t miss out on gluten-free waffles at the Dining Centers for breakfast!",
+        "For a sweet treat, grab some gluten-free cookies from the Dining Centers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "allergy_options",
+      "patterns": [
+        "I have a nut allergy",
+        "Where can I eat with a nut allergy?",
+        "Any nut-free places on campus?",
+        "I need nut-free options",
+        "peanut allergy",
+        "tree nut allergy",
+        "fish allergy",
+        "shellfish allergy",
+        "allergic to peanuts",
+        "food allergy",
+        "I'm lactose intolerant",
+        "Where can I eat lactose-free?",
+        "Any lactose-free options?",
+        "I need lactose-free food"
+      ],
+      "responses": [
+        "Try out the Simple Kitchen! It's an access-controlled pantry for Bulls with food allergy concerns and dietary needs.",
+        "The Simple Kitchen pantry is free from foods containing wheat, gluten, peanuts, tree nuts, fish, and shellfish."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "I need something cheap",
+        "What's a budget-friendly option?",
+        "I don't want to spend much",
+        "Any affordable restaurants?",
+        "Where can I eat for cheap on North Campus?"
+      ],
+      "responses": [
+        "You can grab a snack or sandwich at the Union Market for a low-cost meal.",
+        "Tim Hortons has inexpensive coffee, donuts, and sandwiches if you're in the Commons.",
+        "Young Chow offers chinese meals at relatively low costs!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_moes",
+      "patterns": [
+        "What's the wait time at Moe's?",
+        "How busy is Moe's right now?",
+        "Is there a line at Moe's?",
+        "How long is the wait at Moe's Southwest Grill?"
+      ],
+      "responses": [
+        "The wait time at Moe’s is typically around 15-25 minutes during lunch hours.",
+        "Moe's usually has a moderate wait time of 15 minutes, depending on the time of day."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_tim_hortons",
+      "patterns": [
+        "What's the wait time at Tim Hortons?",
+        "How busy is Tim Hortons right now?",
+        "Is there a line at Tim Hortons?",
+        "How long is the wait at Tim Hortons?"
+      ],
+      "responses": [
+        "Tim Hortons can have an average wait during peak times, usually no more than 30 minutes.",
+        "The wait at Tim Hortons is typically about 15-20 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_jamba_juice",
+      "patterns": [
+        "What's the wait time at Jamba Juice?",
+        "How busy is Jamba Juice right now?",
+        "Is there a line at Jamba Juice?",
+        "How long is the wait at Jamba Juice in Alumni Arena?"
+      ],
+      "responses": [
+        "Jamba Juice usually has a short wait time, around 5 minutes.",
+        "You can expect a quick wait at Jamba Juice, typically no more than 5 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_mexican",
+      "patterns": [
+        "I'm craving Mexican food",
+        "Where can I get Mexican food?",
+        "Is there Mexican food on campus?",
+        "I want Mexican food",
+        "tacos",
+        "nachos",
+        "burritos",
+        "quesadillas"
+      ],
+      "responses": [
+        "For Mexican food, head to Moe’s Southwest Grill in the Commons.",
+        "Moe’s Southwest Grill offers customizable burritos, tacos, and more with a Mexican flair.",
+        "Moe’s offers delicious burritos, quesadillas, tacos, and more! It’s a great spot for Mexican food on campus."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_coffee",
+      "patterns": [
+        "I want coffee",
+        "Where can I get coffee?",
+        "Where's the best place for coffee on campus?",
+        "I'm craving coffee"
+      ],
+      "responses": [
+        "For coffee, you can visit Starbucks at Capen Café, or Tim Hortons in the Commons.",
+        "Starbucks and Tim Hortons in the Commons are popular spots for coffee on campus.",
+        "Whisper's Cafe at the Silverman Library inside Capen Hall offers hand-crafted Starbucks beverages and freshly-brewed coffees."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_sushi",
+      "patterns": [
+        "Where's the best place for sushi?",
+        "I want sushi",
+        "Where can I find sushi on campus?",
+        "I'm craving sushi",
+        "sushi",
+        "sushi sounds good",
+        "suggestions for sushi?"
+      ],
+      "responses": [
+        "Champa Sushi in the Student Union for some fresh sushi!",
+        "You can find fresh sushi at Champa Sushi!",
+        "You have to try Champa Sushi. They offer fresh sushi, and refreshing Asian snacks and drinks to go along with it."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "salads",
+      "patterns": [
+        "Where's the best place for salad?",
+        "I want salad",
+        "Where can I find a good salad on campus?",
+        "I'm craving a salad",
+        "salad",
+        "sald sounds good",
+        "suggestions for salads?"
+      ],
+      "responses": [
+        "You can grab a delicious salad at Bulls on the Run, perfect for a quick meal!",
+        "Moe’s offers fresh salads along with their burritos and tacos.",
+        "Capen Cafe has grab-and-go salads if you're looking for something quick.",
+        "Check out Whisper's Cafe in Capen for salads along with your coffee and baked goods.",
+        "One World Café has a variety of fresh salad options among their international dishes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_sandwiches",
+      "patterns": [
+        "Where can I get a sandwich?",
+        "I want a good sandwich!",
+        "Do you know any places that serve sandwiches?",
+        "What are the best sandwich spots on campus?",
+        "turkey sandwich",
+        "ham sandwich"
+      ],
+      "responses": [
+        "You can find a variety of sandwiches at Bulls on the Run, where they offer grab-and-go options.",
+        "Tim Horton’s is also a great spot for delicious sandwiches along with hot, fresh coffee and tasty baked goods!",
+        "Find grab-and-go sandwiches and salads at the Whisper's Cafe!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_smoothies",
+      "patterns": [
+        "I’m craving smoothies.",
+        "Where can I get fresh fruit juices?",
+        "Do you know a good place for smoothies on campus?",
+        "I want a smoothie bowl!",
+        "What are some options for fruit juices around here?",
+        "acai bowl",
+        "something refreshing",
+        "anything refreshing",
+        "fruity",
+        "smoothie"
+      ],
+      "responses": [
+        "For delicious smoothies and fresh fruit juices, check out Jamba in the Student Union!",
+        "Jamba offers freshly blended smoothies, smoothie bowls, and acai bowls that are perfect for a refreshing treat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_asian",
+      "patterns": [
+        "I'm in the mood for Asian food",
+        "Where can I get Asian food?",
+        "asian?",
+        "asian food",
+        "Where's the best place for Asian food on campus?",
+        "I want Asian food",
+        "Craving something Asian",
+        "Yo, where's the best Asian spot?",
+        "Need some Asian food ASAP",
+        "Any good Asian food around?",
+        "What's the move for Asian food?",
+        "Where do I get good Asian eats on campus?",
+        "best asian food",
+        "fried rice",
+        "noodles",
+        "chinese food",
+        "chinese"
+      ],
+      "responses": [
+        "Young Chow at the Student Union is a solid spot if you're craving quick Chinese and Asian-inspired dishes.",
+        "If you're in the mood for Asian food, check out Young Chow at the Student Union for tasty, fast options.",
+        "Looking for quick Asian food? Young Chow at the Student Union has you covered.",
+        "For some Asian cuisine on campus, head over to Young Chow in the Student Union.",
+        "Young Chow at the Student Union is the move for a quick fix of Chinese and Asian eats."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "quick_easy_meals",
+      "patterns": [
+        "I need something quick and easy to eat.",
+        "Where can I grab a quick meal?",
+        "What’s a good spot for a quick bite on campus?",
+        "I want something easy to eat.",
+        "Any recommendations for a quick snack?"
+      ],
+      "responses": [
+        "You can grab a quick salad or sandwich at Bulls on the Run for a fast meal!",
+        "Tim Horton’s has delicious baked goods and coffee if you're looking for a quick pick-me-up.",
+        "Check out Capen Cafe for grab-and-go sandwiches, salads, and snacks that are quick and convenient!",
+        "Champa Sushi in the Student Union is great for a fast sushi fix along with some Asian snacks and drinks!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "halal_options",
+      "patterns": [
+        "Do you have halal food?",
+        "Where can I find halal options?",
+        "Are there halal-certified meals on campus?",
+        "I need halal food.",
+        "What places serve halal food?",
+        "Can you recommend any halal restaurants?",
+        "I can't eat pork",
+        "no pork"
+      ],
+      "responses": [
+        "You can find halal options at Bravo Pasta, where they offer halal proteins.",
+        "Check out the Mexican stations for halal-certified meals!",
+        "One World Café has halal proteins available in their dishes.",
+        "Look for select Grab-n-Go meals that include halal options.",
+        "Halal meals are also available in the Dining Centers."
+      ],
+      "context_set": ""
+    }
+  ]
+}
