@@ -12,7 +12,7 @@ lemmatizer = WordNetLemmatizer()
 intents = json.loads(open("intents.json").read()) 
 words = pickle.load(open('words.pkl', 'rb')) 
 classes = pickle.load(open('classes.pkl', 'rb')) 
-model = load_model('chatbotmodel.h5') 
+model = load_model('my_model.keras') 
 
 def clean_up_sentences(sentence): 
 	sentence_words = nltk.word_tokenize(sentence) 
