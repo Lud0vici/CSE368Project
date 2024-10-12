@@ -314,8 +314,59 @@
         "I want Asian food"
       ],
       "responses": [
-        "For Asian cuisine, Panda Express in the Commons has a variety of quick Chinese food options.",
-        "Panda Express in the Commons offers a range of Asian-inspired dishes, perfect for a quick meal."
+        "Great! What type of Asian food are you interested in? Japanese, Chinese, Korean, or Indian?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_asian_chinese",
+      "patterns": [
+        "I want Chinese food",
+        "I'm in the mood for Chinese food",
+        "Can you recommend a Chinese restaurant?",
+        "What about Chinese cuisine?"
+      ],
+      "responses": [
+        "I recommend Young Chow for some delicious Chinese food!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_asian_korean",
+      "patterns": [
+        "I want Korean food",
+        "I'm in the mood for Korean food",
+        "Can you recommend a Korean restaurant?",
+        "What about Korean cuisine?"
+      ],
+      "responses": [
+        "You should try AK Korean Comfort Food for some great Korean dishes!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_asian_japanese",
+      "patterns": [
+        "I want Japanese food",
+        "I'm in the mood for Japanese food",
+        "Can you recommend a Japanese restaurant?",
+        "What about Japanese cuisine?"
+      ],
+      "responses": [
+        "You should try Dancing Chopsticks in the Commons for Japanese dishes!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_asian_indian",
+      "patterns": [
+        "I want Indian food",
+        "I'm in the mood for Indian food",
+        "Can you recommend an Indian restaurant?",
+        "What about Indian cuisine?"
+      ],
+      "responses": [
+        "Bollywood Bistro is a fantastic choice for Indian cuisine!"
       ],
       "context_set": ""
     }
