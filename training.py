@@ -101,7 +101,7 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
 
 # saving the model
-model.save("chatbotmodel.h5")
+model.save("my_model.keras")
 # model.save('my_model.keras')?
 
 # print statement to show the successful training of the Chatbot model
